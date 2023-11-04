@@ -667,14 +667,6 @@ body {
     fill: #F4F4FD;
 }
 
-.call-back-form-own-checkbox:checked {
-    border: none;
-}
-
-.call-back-form-checkbox:focus + .call-back-form-checkbox-label .call-back-form-own-checkbox {
-    border: 1px solid rgba(59, 63, 126, 0.4);
-}
-
 .call-back-form-button {
     display: block;
     margin-right: auto;
