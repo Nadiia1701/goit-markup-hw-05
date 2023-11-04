@@ -485,15 +485,16 @@
         <div class="subscribe-form-container">
           <p class="subscribe-form-text">Subscribe</p>
           <form class="subscribe-form">
-            <label for="user-email-foot"></label>
-            <input
-              class="subscribe-form-field"
-              type="email"
-              name="user_email_foot"
-              id="user-email-foot"
-              required
-              placeholder="E-mail"
-            />
+            <label for="user-email-foot">
+              <input
+                class="subscribe-form-field"
+                type="email"
+                name="user_email_foot"
+                id="user-email-foot"
+                required
+                placeholder="E-mail"
+              />
+            </label>
             <button class="subscribe-button" type="submit">
               Subscribe
               <svg class="subscribe-field-icon" width="24" height="24">
@@ -504,7 +505,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-button" type="button">
           <svg
@@ -521,20 +522,20 @@
         </p>
         <form class="call-back-form">
           <div class="call-back-form-field-wrapper">
-            <label class="call-back-form-field-label" for="user-first-name">
+            <label class="call-back-form-field-label" for="user-name">
               Name
             </label>
             <div class="call-back-form-input-wrapper">
               <input
                 class="call-back-form-field"
                 type="text"
-                name="user_first_name"
-                id="user-first-name"
+                name="user_name"
+                id="user-name"
                 required
                 pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙ']+"
                 title="Oleksii"
               />
-              <svg class="call-back-form-field-icon" width="18" height="18">
+              <svg class="call-back-form-field-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -590,12 +591,12 @@
             <input
               class="call-back-form-checkbox visually-hidden"
               type="checkbox"
-              name="user_policy"
+              name="user_privacy"
               value="true"
-              id="user-policy"
+              id="user-privacy"
               required
             />
-            <label class="call-back-form-checkbox-label" for="user-policy">
+            <label class="call-back-form-checkbox-label" for="user-privacy">
               <span class="call-back-form-own-checkbox">
                 <svg
                   class="call-back-form-own-checkbox-icon"
