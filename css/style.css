@@ -556,10 +556,6 @@ body {
     margin-bottom: 16px;
 }
 
-.call-back-form {
-    margin-bottom: 16px;
-}
-
 .call-back-form-field-label {
     display: block;
     font-size: 12px;
@@ -605,6 +601,10 @@ body {
 
 .call-back-form-field:focus + .call-back-form-field-icon {
     fill: #4D5AE5;
+}
+
+.textarea-wrapper {
+    margin-bottom: 16px;
 }
 
 .call-back-form-message {
