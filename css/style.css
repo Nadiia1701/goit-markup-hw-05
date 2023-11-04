@@ -511,7 +511,7 @@ body {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     padding: 72px 24px 24px 24px;
-    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button {
@@ -556,6 +556,10 @@ body {
     margin-bottom: 16px;
 }
 
+.call-back-form {
+    margin-bottom: 16px;
+}
+
 .call-back-form-field-label {
     display: block;
     font-size: 12px;
@@ -567,7 +571,7 @@ body {
 }
 
 .call-back-form-field-wrapper {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .call-back-form-input-wrapper {
